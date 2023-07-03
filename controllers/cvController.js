@@ -43,7 +43,7 @@ exports.login = async (req, res) => {
   } catch (err) {
     res.status(500).json({ err });
   }
-  res.send("login")
+  // res.send("login")
 };
 
 // exports.addList = async (req, res) => {
